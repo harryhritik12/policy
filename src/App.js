@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import PrivacyPolicy from "./Page/PrivacyPolicy";
 
-function App() {
+import CookieConsent from 'react-cookie-consent';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+      <PrivacyPolicy />
+      <CookieConsent
+        location="bottom"
+        buttonText="I understand"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </div>
   );
-}
+};
 
 export default App;
