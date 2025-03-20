@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">
             Privacy Policy
           </h1>
-          <p className="text-lg text-gray-500 font-medium">Effective March 18, 2025</p>
+          <p className="text-lg text-gray-500 font-medium">Effective March 20, 2025</p>
         </div>
 
         <div className="space-y-14">
@@ -119,7 +119,7 @@ const PrivacyPolicy = () => {
 
         <div className="mt-14 pt-8 border-t border-gray-200 text-center">
           <p className="text-sm text-gray-500">
-            Last updated: March 18, 2025 | Version 2.2
+            Last updated: March 20, 2025 | Version 2.2
           </p>
         </div>
       </div>
